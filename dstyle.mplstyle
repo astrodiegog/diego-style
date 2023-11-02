@@ -27,10 +27,10 @@ xtick.labelsize: 25.0
 ytick.labelsize: 25.0
 
 xtick.major.size : 10.0
-xtick.minor.size : 7.0
+xtick.minor.size : 8.0
 
 ytick.major.size : 10.0
-ytick.minor.size : 7.0
+ytick.minor.size : 8.0
 
 xtick.direction : in
 ytick.direction : in
