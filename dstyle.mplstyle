@@ -1,14 +1,14 @@
 # Lines
 
-lines.dotted_pattern : 2, 2
-lines.linewidth: 2
+lines.dotted_pattern : 2.0, 2.0
+lines.linewidth: 3.0
 
 
 # Font
 
 font.family : Serif
 font.serif : cmr10
-font.size : 20.0
+font.size : 40.0
 
 
 # Text / LaTeX
@@ -19,15 +19,18 @@ mathtext.fontset : cm
 # Axes
 
 axes.formatter.use_mathtext : True
-axes.labelsize : 15.0
+axes.labelsize : 35.0
 
 # Ticks
 
-xtick.major.size : 5.0
-xtick.minor.size : 3.0
+xtick.labelsize: 25.0
+ytick.labelsize: 25.0
 
-ytick.major.size : 5.0
-ytick.minor.size : 3.0
+xtick.major.size : 10.0
+xtick.minor.size : 8.0
+
+ytick.major.size : 10.0
+ytick.minor.size : 8.0
 
 xtick.direction : in
 ytick.direction : in
@@ -40,7 +43,7 @@ ytick.minor.pad : 10
 
 # Figure
 
-figure.figsize : 12.0, 9.0
+figure.figsize : 10.0, 8.0
 
 figure.dpi : 300.0
 
