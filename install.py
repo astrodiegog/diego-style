@@ -8,7 +8,7 @@ lib_path = os.path.join(mpl_configdir, 'stylelib')
 
 if (not os.path.isdir(lib_path)):
     _ = os.mkdir(lib_path)
-    print("Could not find mpl_configdir/stylelib. Created in ", path)
+    print("Could not find mpl_configdir/stylelib. Created in ", lib_path)
 
 curr_dir = os.getcwd()
 style_fname = 'dstyle.mplstyle'
