@@ -6,25 +6,24 @@ lines.linewidth: 3.0
 
 # Font
 
-font.family : Serif
-font.serif : cmr10
-font.size : 40.0
+font.family : sans-serif
+font.sans-serif : Helvetica
+font.size : 20.0
 
 
 # Text / LaTeX
 
-text.usetex : True
 mathtext.fontset : cm
+mathtext.rm : serif
 
 # Axes
 
-axes.formatter.use_mathtext : True
-axes.labelsize : 35.0
+axes.labelsize : 15.0
 
 # Ticks
 
-xtick.labelsize: 25.0
-ytick.labelsize: 25.0
+xtick.labelsize: 15.0
+ytick.labelsize: 15.0
 
 xtick.major.size : 10.0
 xtick.minor.size : 8.0
@@ -35,11 +34,24 @@ ytick.minor.size : 8.0
 xtick.direction : in
 ytick.direction : in
 
-xtick.major.pad : 10
-xtick.minor.pad : 10
+xtick.major.pad : 5
+xtick.minor.pad : 5
 
-ytick.major.pad : 10
-ytick.minor.pad : 10
+ytick.major.pad : 5
+ytick.minor.pad : 5
+
+# Legend
+
+legend.framealpha: 1
+legend.frameon: False
+
+# Image settings
+
+image.cmap: magma
+
+# line plot, colors taken from
+# https://docs.bokeh.org/en/latest/docs/reference/palettes.html
+axes.prop_cycle: cycler("color", ["00204c","666870","cab969","ffe945"])
 
 # Figure
 
