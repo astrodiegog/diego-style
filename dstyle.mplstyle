@@ -51,7 +51,7 @@ image.cmap: magma
 
 # line plot, colors taken from
 # https://docs.bokeh.org/en/latest/docs/reference/palettes.html
-axes.prop_cycle: cycler("color", ["00204c","666870","cab969","ffe945"])
+axes.prop_cycle: cycler("color", ['4477AA', 'EE6677', '228833', 'CCBB44', '66CCEE', 'AA3377', 'BBBBBB'])
 
 # Figure
 
